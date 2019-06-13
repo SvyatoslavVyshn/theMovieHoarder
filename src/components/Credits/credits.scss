@@ -1,0 +1,12 @@
+.credits{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 90%;
+    margin: 0 auto;
+
+    .credit-item {
+        display: inline-block;
+        margin: 0 10px;
+    }
+}

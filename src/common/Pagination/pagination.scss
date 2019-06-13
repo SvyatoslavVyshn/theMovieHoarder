@@ -1,0 +1,51 @@
+
+.material-pagination {
+    padding-left: 0;
+    list-style-type: none;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 5px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12);
+    border-radius: 0;
+}
+
+.material-page-item{
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: top;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    user-select: none;
+    z-index: 1;
+
+    i{
+        font-size: 2rem;
+    }
+}
+
+.material-page-link {
+    color: #444;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+.material-active {
+    background-color: #654ea3;
+    color: #fff;
+
+    a {
+        color: #fff
+    }
+}
+
+.material-disabled{
+    @extend .material-page-item;
+    color: #666;
+}

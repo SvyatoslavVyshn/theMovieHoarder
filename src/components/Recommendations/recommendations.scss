@@ -1,0 +1,12 @@
+.recommendations{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 90%;
+    margin: 0 auto;
+
+    .recommendations-item {
+        display: inline-block;
+        margin: 0 10px;
+    }
+}
